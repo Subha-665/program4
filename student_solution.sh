@@ -8,7 +8,7 @@ echo "===== SELinux Status ====="
 getenforce
 
 echo "===== Creating Web Directory ====="
-mkdir -p /webdata
+mkdir /myweb
 echo "===== Creating HTML File ====="
 echo "Hello SELinux" > /myweb/index.html
 
